@@ -78,10 +78,21 @@ h4 {
 	margin-top: 10px;
 }
 
+.panel-body {
+	margin-bottom: 5px;
+}
+
 .experience-container {
     float: right;
     background-color: #e2a052;
     border-radius: 20px 0px 0px 5px;
+    height: 166px;
+}
+
+.experience-container li {
+	list-style-type: none;
+	margin-bottom: 5px;
+	font-size: 18px;
 }
 
 .certified img {
