@@ -1,6 +1,7 @@
 body{
-	background-color: #E6F1F5;
+	background-color: #5294e2;
 	font-family:  "Titillium Web", sans-serif;
+	color: white;
 }
 
 h1 {
@@ -8,7 +9,14 @@ h1 {
     padding: 50px 10px 0px 15px;
     font-weight: bold;
     font-size: 3em;
-    border-bottom: 5px solid black;
+    border-bottom: 3px solid white;
+}
+
+h3 {
+	border-bottom: 2px solid white;
+	margin-left: 2%;
+	font-weight: bold;
+	font-size: 2em;
 }
 
 h4 {
@@ -18,7 +26,7 @@ h4 {
 [src="imgs/me.jpg"] {
 	width: 200px;
 	float: left;
-	border: 5px solid black;
+	border: 2px solid white;
 }
 
 .header-container {
@@ -29,4 +37,16 @@ h4 {
 .banner-container {
 	height: 200px;
 	display: inline-block;
+}
+
+.intro-section p {
+	font-size: 1.75em;
+	width: 50%;
+}
+
+.intro-section {
+	border-left: 3px solid white;
+	margin-left: 5%;
+	margin-top: 15px;
+	padding-left: 5px;
 }
