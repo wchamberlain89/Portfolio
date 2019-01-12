@@ -84,15 +84,16 @@ video {
 	background-color: #383c4a;
 	border: 2px solid #52dce2;
 	height: 275px;
-	margin-bottom: 0;
 }
 
 .panel-heading {
 	margin-top: 10px;
 }
 
-.panel-body {
-	margin-bottom: 5px;
+.panel .panel-body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
 }
 
 .experience-container {
