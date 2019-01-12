@@ -28,6 +28,10 @@ a {
 	text-decoration: none;
 }
 
+video {
+	width: 100%;
+}
+
 .header-image {
 	width: 200px;
 	height: 200px;
@@ -135,13 +139,19 @@ a {
 	background-color: #5294e2;
 	text-align: center;
 	margin-top: 20px;
-	border: 2px solid white;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
 	margin-bottom: 75px;
 }
 
 .interests img {
 	  width: 250px;
     height: 250px;
-    border: 2px solid white;
+    border-top: : 2px solid white;
     margin-bottom: 15px;
+}
+
+.dance-header {
+	padding-top: 60px;
+	height: 200px;
 }
